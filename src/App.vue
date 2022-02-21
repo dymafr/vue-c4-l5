@@ -1,5 +1,6 @@
 <template>
-  <input type="number" v-model="product.quantity" />
+  <label for="quantity">Nombre de livres : </label>
+  <input id="quantity" type="number" v-model="produit.quantite" />
   <h2>Prix total HT : {{ totalPrixHT }}€</h2>
   <h2>Prix total TTC : {{ totalPrixTTC }}€</h2>
 </template>
